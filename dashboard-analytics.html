@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Dashboard | Hyper - Responsive Bootstrap 5 Admin Dashboard</title>
+        <title>Analytics Dashboard | Hyper - Responsive Bootstrap 5 Admin Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
         <meta content="Coderthemes" name="author">
@@ -1028,123 +1028,92 @@
                                             <a href="javascript: void(0);" class="btn btn-primary ms-2">
                                                 <i class="mdi mdi-autorenew"></i>
                                             </a>
-                                            <a href="javascript: void(0);" class="btn btn-primary ms-1">
-                                                <i class="mdi mdi-filter-variant"></i>
-                                            </a>
                                         </form>
                                     </div>
-                                    <h4 class="page-title">Dashboard</h4>
+                                    <h4 class="page-title">Analytics</h4>
                                 </div>
                             </div>
                         </div>
                         <!-- end page title -->
 
                         <div class="row">
-                            <div class="col-xl-5 col-lg-6">
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-users-alt float-end'></i>
+                                        <h6 class="text-uppercase mt-0">Active Users</h6>
+                                        <h2 class="my-2" id="active-users-count">121</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-success me-2"><span class="mdi mdi-arrow-up-bold"></span> 5.27%</span>
+                                            <span class="text-nowrap">Since last month</span>  
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div>
+                                <!--end card-->
 
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="card widget-flat">
-                                            <div class="card-body">
-                                                <div class="float-end">
-                                                    <i class="mdi mdi-account-multiple widget-icon"></i>
-                                                </div>
-                                                <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Customers</h5>
-                                                <h3 class="mt-3 mb-3">36,254</h3>
-                                                <p class="mb-0 text-muted">
-                                                    <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span>
-                                                    <span class="text-nowrap">Since last month</span>  
-                                                </p>
-                                            </div> <!-- end card-body-->
-                                        </div> <!-- end card-->
-                                    </div> <!-- end col-->
+                                <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-window-restore float-end'></i>
+                                        <h6 class="text-uppercase mt-0">Views per minute</h6>
+                                        <h2 class="my-2" id="active-views-count">560</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-danger me-2"><span class="mdi mdi-arrow-down-bold"></span> 1.08%</span>
+                                            <span class="text-nowrap">Since previous week</span>
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div>
+                                <!--end card-->
 
-                                    <div class="col-lg-6">
-                                        <div class="card widget-flat">
-                                            <div class="card-body">
-                                                <div class="float-end">
-                                                    <i class="mdi mdi-cart-plus widget-icon"></i>
-                                                </div>
-                                                <h5 class="text-muted fw-normal mt-0" title="Number of Orders">Orders</h5>
-                                                <h3 class="mt-3 mb-3">5,543</h3>
-                                                <p class="mb-0 text-muted">
-                                                    <span class="text-danger me-2"><i class="mdi mdi-arrow-down-bold"></i> 1.08%</span>
-                                                    <span class="text-nowrap">Since last month</span>
-                                                </p>
-                                            </div> <!-- end card-body-->
-                                        </div> <!-- end card-->
-                                    </div> <!-- end col-->
-                                </div> <!-- end row -->
-
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="card widget-flat">
-                                            <div class="card-body">
-                                                <div class="float-end">
-                                                    <i class="mdi mdi-currency-usd widget-icon"></i>
-                                                </div>
-                                                <h5 class="text-muted fw-normal mt-0" title="Average Revenue">Revenue</h5>
-                                                <h3 class="mt-3 mb-3">$6,254</h3>
-                                                <p class="mb-0 text-muted">
-                                                    <span class="text-danger me-2"><i class="mdi mdi-arrow-down-bold"></i> 7.00%</span>
-                                                    <span class="text-nowrap">Since last month</span>
-                                                </p>
-                                            </div> <!-- end card-body-->
-                                        </div> <!-- end card-->
-                                    </div> <!-- end col-->
-
-                                    <div class="col-lg-6">
-                                        <div class="card widget-flat">
-                                            <div class="card-body">
-                                                <div class="float-end">
-                                                    <i class="mdi mdi-pulse widget-icon"></i>
-                                                </div>
-                                                <h5 class="text-muted fw-normal mt-0" title="Growth">Growth</h5>
-                                                <h3 class="mt-3 mb-3">+ 30.56%</h3>
-                                                <p class="mb-0 text-muted">
-                                                    <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 4.87%</span>
-                                                    <span class="text-nowrap">Since last month</span>
-                                                </p>
-                                            </div> <!-- end card-body-->
-                                        </div> <!-- end card-->
-                                    </div> <!-- end col-->
-                                </div> <!-- end row -->
-
+                                <div class="card cta-box overflow-hidden">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <h3 class="m-0 fw-normal cta-box-title">Enhance your <b>Campaign</b> for better outreach <i class="mdi mdi-arrow-right"></i></h3>
+                                            </div>
+                                            <img class="ms-3" src="assets/images/email-campaign.svg" width="92" alt="Generic placeholder image">
+                                        </div>
+                                    </div>
+                                    <!-- end card-body -->
+                                </div>
                             </div> <!-- end col -->
 
-                            <div class="col-xl-7 col-lg-6">
+                            <div class="col-xl-9 col-lg-8">
                                 <div class="card card-h-100">
                                     <div class="card-body">
-                                        <div class="dropdown float-end">
-                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="mdi mdi-dots-vertical"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            </div>
+                                        <div class="alert alert-warning alert-dismissible fade show mb-3" role="alert">
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                            Property HY1xx is not receiving hits. Either your site is not receiving any sessions or it is not tagged correctly.
                                         </div>
-                                        <h4 class="header-title mb-3">Projections Vs Actuals</h4>
+                                        <ul class="nav float-end d-none d-lg-flex">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-muted" href="#">Today</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-muted" href="#">7d</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" href="#">15d</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-muted" href="#">1m</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-muted" href="#">1y</a>
+                                            </li>
+                                        </ul>
+                                        <h4 class="header-title mb-3">Sessions Overview</h4>
 
                                         <div dir="ltr">
-                                            <div id="high-performing-product" class="apex-charts" data-colors="#727cf5,#e3eaef"></div>
+                                            <div id="sessions-overview" class="apex-charts mt-3" data-colors="#0acf97"></div>
                                         </div>
-                                            
                                     </div> <!-- end card-body-->
                                 </div> <!-- end card-->
-
-                            </div> <!-- end col -->
+                            </div>
                         </div>
-                        <!-- end row -->
 
+                        
                         <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="dropdown float-end">
@@ -1153,103 +1122,20 @@
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-end">
                                                 <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
                                                 <!-- item-->
                                                 <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
                                             </div>
                                         </div>
-                                        <h4 class="header-title mb-3">Revenue</h4>
+                                        <h4 class="header-title">Sessions by country</h4>
 
-                                        <div class="chart-content-bg">
-                                            <div class="row text-center">
-                                                <div class="col-md-6">
-                                                    <p class="text-muted mb-0 mt-3">Current Week</p>
-                                                    <h2 class="fw-normal mb-3">
-                                                        <small class="mdi mdi-checkbox-blank-circle text-primary align-middle me-1"></small>
-                                                        <span>$58,254</span>
-                                                    </h2>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p class="text-muted mb-0 mt-3">Previous Week</p>
-                                                    <h2 class="fw-normal mb-3">
-                                                        <small class="mdi mdi-checkbox-blank-circle text-success align-middle me-1"></small>
-                                                        <span>$69,524</span>
-                                                    </h2>
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                <div id="world-map-markers" class="mt-3 mb-3" style="height: 300px">
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <div class="dash-item-overlay d-none d-md-block" dir="ltr">
-                                            <h5>Today's Earning: $2,562.30</h5>
-                                            <p class="text-muted font-13 mb-3 mt-2">Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                                Etiam rhoncus...</p>
-                                            <a href="javascript: void(0);" class="btn btn-outline-primary">View Statements
-                                                <i class="mdi mdi-arrow-right ms-2"></i>
-                                            </a>
-                                        </div>
-                                        <div dir="ltr">
-                                            <div id="revenue-chart" class="apex-charts mt-3" data-colors="#727cf5,#0acf97"></div>
-                                        </div>
-                                    </div> <!-- end card-body-->
-                                </div> <!-- end card-->
-                            </div> <!-- end col-->
-
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="dropdown float-end">
-                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="mdi mdi-dots-vertical"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            </div>
-                                        </div>
-                                        <h4 class="header-title">Revenue By Location</h4>
-                                        <div class="mb-4 mt-4">
-                                            <div id="world-map-markers" style="height: 224px"></div>
-                                        </div>
-
-                                        <h5 class="mb-1 mt-0 fw-normal">New York</h5>
-                                        <div class="progress-w-percent">
-                                            <span class="progress-value fw-bold">72k </span>
-                                            <div class="progress progress-sm">
-                                                <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-
-                                        <h5 class="mb-1 mt-0 fw-normal">San Francisco</h5>
-                                        <div class="progress-w-percent">
-                                            <span class="progress-value fw-bold">39k </span>
-                                            <div class="progress progress-sm">
-                                                <div class="progress-bar" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-
-                                        <h5 class="mb-1 mt-0 fw-normal">Sydney</h5>
-                                        <div class="progress-w-percent">
-                                            <span class="progress-value fw-bold">25k </span>
-                                            <div class="progress progress-sm">
-                                                <div class="progress-bar" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-
-                                        <h5 class="mb-1 mt-0 fw-normal">Singapore</h5>
-                                        <div class="progress-w-percent mb-0">
-                                            <span class="progress-value fw-bold">61k </span>
-                                            <div class="progress progress-sm">
-                                                <div class="progress-bar" role="progressbar" style="width: 61%;" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="col-lg-4" dir="ltr">
+                                                <div id="country-chart" class="apex-charts" data-colors="#727cf5"></div>
                                             </div>
                                         </div>
                                     </div> <!-- end card-body-->
@@ -1258,110 +1144,177 @@
                         </div>
                         <!-- end row -->
 
-
                         <div class="row">
-                            <div class="col-xl-6 col-lg-12 order-lg-2 order-xl-1">
+                            <div class="col-xl-4 col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <a href="" class="btn btn-sm btn-link float-end">Export
-                                            <i class="mdi mdi-download ms-1"></i>
-                                        </a>
-                                        <h4 class="header-title mt-2 mb-3">Top Selling Products</h4>
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title">Views Per Minute</h4>
 
-                                        <div class="table-responsive">
-                                            <table class="table table-centered table-nowrap table-hover mb-0">
+                                        <div id="views-min" class="apex-charts mt-2" data-colors="#0acf97"></div>
+
+                                        <div class="table-responsive mt-3">
+                                            <table class="table table-sm mb-0 font-13">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Page</th>
+                                                        <th>Views</th>
+                                                        <th>Bounce Rate</th>
+                                                    </tr>
+                                                </thead>
                                                 <tbody>
                                                     <tr>
                                                         <td>
-                                                            <h5 class="font-14 my-1 fw-normal">ASOS Ridley High Waist</h5>
-                                                            <span class="text-muted font-13">07 April 2018</span>
+                                                            <a href="javascript:void(0);" class="text-muted">/hyper/dashboard-analytics</a>
                                                         </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$79.49</h5>
-                                                            <span class="text-muted font-13">Price</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">82</h5>
-                                                            <span class="text-muted font-13">Quantity</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$6,518.18</h5>
-                                                            <span class="text-muted font-13">Amount</span>
-                                                        </td>
+                                                        <td>25</td>
+                                                        <td>87.5%</td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <h5 class="font-14 my-1 fw-normal">Marco Lightweight Shirt</h5>
-                                                            <span class="text-muted font-13">25 March 2018</span>
+                                                            <a href="javascript:void(0);" class="text-muted">/hyper/dashboard-crm</a>
                                                         </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$128.50</h5>
-                                                            <span class="text-muted font-13">Price</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">37</h5>
-                                                            <span class="text-muted font-13">Quantity</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$4,754.50</h5>
-                                                            <span class="text-muted font-13">Amount</span>
-                                                        </td>
+                                                        <td>15</td>
+                                                        <td>21.48%</td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <h5 class="font-14 my-1 fw-normal">Half Sleeve Shirt</h5>
-                                                            <span class="text-muted font-13">17 March 2018</span>
+                                                            <a href="javascript:void(0);" class="text-muted">/ubold/dashboard</a>
                                                         </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$39.99</h5>
-                                                            <span class="text-muted font-13">Price</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">64</h5>
-                                                            <span class="text-muted font-13">Quantity</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$2,559.36</h5>
-                                                            <span class="text-muted font-13">Amount</span>
-                                                        </td>
+                                                        <td>10</td>
+                                                        <td>63.59%</td>
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <h5 class="font-14 my-1 fw-normal">Lightweight Jacket</h5>
-                                                            <span class="text-muted font-13">12 March 2018</span>
+                                                            <a href="javascript:void(0);" class="text-muted">/minton/home</a>
                                                         </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$20.00</h5>
-                                                            <span class="text-muted font-13">Price</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">184</h5>
-                                                            <span class="text-muted font-13">Quantity</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$3,680.00</h5>
-                                                            <span class="text-muted font-13">Amount</span>
-                                                        </td>
+                                                        <td>7</td>
+                                                        <td>56.12%</td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">Marco Shoes</h5>
-                                                            <span class="text-muted font-13">05 March 2018</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$28.49</h5>
-                                                            <span class="text-muted font-13">Price</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">69</h5>
-                                                            <span class="text-muted font-13">Quantity</span>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="font-14 my-1 fw-normal">$1,965.81</h5>
-                                                            <span class="text-muted font-13">Amount</span>
-                                                        </td>
-                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
 
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title">Sessions by Browser</h4>
+
+                                        <div id="sessions-browser" class="apex-charts mt-3" data-colors="#727cf5"></div>
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
+
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title">Sessions by Operating System</h4>
+
+                                        <div id="sessions-os" class="apex-charts mt-3" data-colors="#727cf5,#0acf97,#fa5c7c,#ffbc00"></div>
+
+                                        <div class="row text-center mt-2">
+                                            <div class="col-6">
+                                                <h4 class="fw-normal">
+                                                    <span>6,510</span>
+                                                </h4>
+                                                <p class="text-muted mb-0">Online System</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <h4 class="fw-normal">
+                                                    <span>2,031</span>
+                                                </h4>
+                                                <p class="text-muted mb-0">Offline System</p>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="" class="p-0 float-end">Export <i class="mdi mdi-download ms-1"></i></a>
+                                        <h4 class="header-title mt-1 mb-3">Channels</h4>
+
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-centered mb-0 font-14">
+                                                <thead class="table-light">
+                                                    <tr>
+                                                        <th>Channel</th>
+                                                        <th>Visits</th>
+                                                        <th style="width: 40%;"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Direct</td>
+                                                        <td>2,050</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar" role="progressbar" style="width: 65%; height: 20px;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Organic Search</td>
+                                                        <td>1,405</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar bg-info" role="progressbar" style="width: 45%; height: 20px;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Refferal</td>
+                                                        <td>750</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 30%; height: 20px;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Social</td>
+                                                        <td>540</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%; height: 20px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </div> <!-- end table-responsive-->
@@ -1369,168 +1322,107 @@
                                 </div> <!-- end card-->
                             </div> <!-- end col-->
 
-                            <div class="col-xl-3 col-lg-6 order-lg-1">
+                            <div class="col-xl-4 col-lg-6">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="dropdown float-end">
-                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="mdi mdi-dots-vertical"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            </div>
-                                        </div>
-                                        <h4 class="header-title">Total Sales</h4>
+                                        <a href="" class="p-0 float-end">Export <i class="mdi mdi-download ms-1"></i></a>
+                                        <h4 class="header-title mt-1 mb-3">Social Media Traffic</h4>
 
-                                        <div id="average-sales" class="apex-charts mb-4 mt-4" data-colors="#727cf5,#0acf97,#fa5c7c,#ffbc00"></div>
-                                       
-
-                                        <div class="chart-widget-list">
-                                            <p>
-                                                <i class="mdi mdi-square text-primary"></i> Direct
-                                                <span class="float-end">$300.56</span>
-                                            </p>
-                                            <p>
-                                                <i class="mdi mdi-square text-danger"></i> Affilliate
-                                                <span class="float-end">$135.18</span>
-                                            </p>
-                                            <p>
-                                                <i class="mdi mdi-square text-success"></i> Sponsored
-                                                <span class="float-end">$48.96</span>
-                                            </p>
-                                            <p class="mb-0">
-                                                <i class="mdi mdi-square text-warning"></i> E-mail
-                                                <span class="float-end">$154.02</span>
-                                            </p>
-                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-centered mb-0 font-14">
+                                                <thead class="table-light">
+                                                    <tr>
+                                                        <th>Network</th>
+                                                        <th>Visits</th>
+                                                        <th style="width: 40%;"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Facebook</td>
+                                                        <td>2,250</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar" role="progressbar" style="width: 65%; height: 20px;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Instagram</td>
+                                                        <td>1,501</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar" role="progressbar" style="width: 45%; height: 20px;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Twitter</td>
+                                                        <td>750</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar" role="progressbar" style="width: 30%; height: 20px;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>LinkedIn</td>
+                                                        <td>540</td>
+                                                        <td>
+                                                            <div class="progress" style="height: 3px;">
+                                                                <div class="progress-bar" role="progressbar" style="width: 25%; height: 20px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div> <!-- end table-responsive-->
                                     </div> <!-- end card-body-->
                                 </div> <!-- end card-->
                             </div> <!-- end col-->
 
-                            <div class="col-xl-3 col-lg-6 order-lg-1">
+                            <div class="col-xl-4 col-lg-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div class="dropdown float-end">
-                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="mdi mdi-dots-vertical"></i>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-end">
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
-                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
-                                            </div>
-                                        </div>
-                                        <h4 class="header-title mb-2">Recent Activity</h4>
+                                        <a href="" class="p-0 float-end">Export <i class="mdi mdi-download ms-1"></i></a>
+                                        <h4 class="header-title mt-1 mb-3">Engagement Overview</h4>
 
-                                        <div data-simplebar="" style="max-height: 419px;"> 
-                                            <div class="timeline-alt pb-0">
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-upload bg-info-lighten text-info timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-info fw-bold mb-1 d-block">You sold an item</a>
-                                                        <small>Paul Burgess just purchased “Hyper - Admin Dashboard”!</small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">5 minutes ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-airplane bg-primary-lighten text-primary timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-primary fw-bold mb-1 d-block">Product on the Bootstrap Market</a>
-                                                        <small>Dave Gamache added
-                                                            <span class="fw-bold">Admin Dashboard</span>
-                                                        </small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">30 minutes ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-microphone bg-info-lighten text-info timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-info fw-bold mb-1 d-block">Robert Delaney</a>
-                                                        <small>Send you message
-                                                            <span class="fw-bold">"Are you there?"</span>
-                                                        </small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">2 hours ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-upload bg-primary-lighten text-primary timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-primary fw-bold mb-1 d-block">Audrey Tobey</a>
-                                                        <small>Uploaded a photo
-                                                            <span class="fw-bold">"Error.jpg"</span>
-                                                        </small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">14 hours ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-upload bg-info-lighten text-info timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-info fw-bold mb-1 d-block">You sold an item</a>
-                                                        <small>Paul Burgess just purchased “Hyper - Admin Dashboard”!</small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">16 hours ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-airplane bg-primary-lighten text-primary timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-primary fw-bold mb-1 d-block">Product on the Bootstrap Market</a>
-                                                        <small>Dave Gamache added
-                                                            <span class="fw-bold">Admin Dashboard</span>
-                                                        </small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">22 hours ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="timeline-item">
-                                                    <i class="mdi mdi-microphone bg-info-lighten text-info timeline-icon"></i>
-                                                    <div class="timeline-item-info">
-                                                        <a href="#" class="text-info fw-bold mb-1 d-block">Robert Delaney</a>
-                                                        <small>Send you message
-                                                            <span class="fw-bold">"Are you there?"</span>
-                                                        </small>
-                                                        <p class="mb-0 pb-2">
-                                                            <small class="text-muted">2 days ago</small>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end timeline -->
-                                        </div> <!-- end slimscroll -->
-                                    </div>
-                                    <!-- end card-body -->
-                                </div>
-                                <!-- end card-->
-                            </div>
-                            <!-- end col -->
+                                        <div class="table-responsive">
+                                            <table class="table table-sm table-centered mb-0 font-14">
+                                                <thead class="table-light">
+                                                    <tr>
+                                                        <th>Duration (Secs)</th>
+                                                        <th style="width: 30%;">Sessions</th>
+                                                        <th style="width: 30%;">Views</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>0-30</td>
+                                                        <td>2,250</td>
+                                                        <td>4,250</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>31-60</td>
+                                                        <td>1,501</td>
+                                                        <td>2,050</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>61-120</td>
+                                                        <td>750</td>
+                                                        <td>1,600</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>121-240</td>
+                                                        <td>540</td>
+                                                        <td>1,040</td>  
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div> <!-- end table-responsive-->
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
 
                         </div>
                         <!-- end row -->
@@ -1667,13 +1559,15 @@
         <script src="assets/js/app.min.js"></script>
 
         <!-- third party js -->
+        <!-- <script src="assets/js/vendor/Chart.bundle.min.js"></script> -->
         <script src="assets/js/vendor/apexcharts.min.js"></script>
         <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
         <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
         <!-- third party js ends -->
 
         <!-- demo app -->
-        <script src="assets/js/pages/demo.dashboard.js"></script>
+        <script src="assets/js/pages/demo.dashboard-analytics.js"></script>
         <!-- end demo js-->
     </body>
+
 </html>
